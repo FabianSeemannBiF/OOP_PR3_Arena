@@ -8,4 +8,12 @@ include_directories(includes)
 add_executable(OOP_PR3_Arena
         includes/Arena.h
         src/Arena.cpp
-        main.cpp)
+        main.cpp
+        includes/Creature.h
+        src/Creature.cpp
+        includes/Hero.h
+        src/Hero.cpp
+        includes/Goblin.h
+        src/Goblin.cpp
+        includes/Zombie.h
+        src/Zombie.cpp)
